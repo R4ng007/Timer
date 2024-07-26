@@ -29,7 +29,7 @@ iniciar.addEventListener('click', function (event) {
 
 pausar.addEventListener('click', function (event) {
   clearInterval(timer);
-  pausar.classList.add('pausado');
+  relogio.classList.add('pausado');
 });
 
 zerar.addEventListener('click', function (event) {
